@@ -49,7 +49,7 @@ public class SettingsPopupWindow extends PopupWindow {
 		//设置SelectPicPopupWindow弹出窗体动画效果
 		this.setAnimationStyle(R.style.PopwindowStyle);
 		//实例化一个ColorDrawable颜色为半透明
-		ColorDrawable dw = new ColorDrawable(000000);
+		ColorDrawable dw = new ColorDrawable(0xdd000000);
 		//设置SelectPicPopupWindow弹出窗体的背景
 		this.setBackgroundDrawable(dw);
 	}
